@@ -1,0 +1,35 @@
+@import 'settings';
+@import 'foundation';
+
+// Ka Man Email custom css styles.
+.header-image{
+	margin:{
+		top: 3em;
+		bottom: 3em;
+	}
+}
+
+.callout h1{
+	color: $white;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top: 0.3em;
+	/* Small only */
+	@media only screen and (max-width: #{$global-breakpoint}) {
+		font-size: 22px;
+		text-align: center;
+	}
+}
+
+p.leadin{
+	font-size: 1.2em;
+	color: #9398CC;
+}
+
+.container {
+	margin-bottom: 2em !important;
+}
+
+#footerName{
+	font-weight: bold;
+}
